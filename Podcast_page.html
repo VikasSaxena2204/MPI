@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Podcasts_page.css">
+    <title>Podcasts</title>
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------Left Side Bar--------------------------------------------------------------- -->
+    <div id="left_sidebar">
+        <img src="podcast_images/podcast_icon.PNG" alt=""><span id="logo">Podcasts</span>
+        <ul>
+            <legend>Menu</legend>
+            <li><img src="podcast_images/discover_icon.PNG" alt=""><a href="#">Discover</a></li>
+            <li><img src="podcast_images/trending_icon.PNG" alt=""><a href="#">Trending</a></li>
+            <li><img src="podcast_images/genre_icon.PNG" alt=""><a href="#">Genre</a></li>
+            <li><img src="podcast_images/album_icon.PNG" alt=""><a href="#">Album</a></li>
+            <li><img src="podcast_images/speaker_icon.PNG" alt=""><a href="#">Speaker</a></li>
+        </ul>
+        <br>
+        <ul>
+            <legend>Library</legend>
+            <li><img src="podcast_images/recent_icon.PNG" alt=""><a href="#">Recent</a></li>
+            <li><img src="podcast_images/playlists_icon.PNG" alt=""><a href="#">Playlists</a></li>
+            <li><img src="podcast_images/favourites_icon.PNG" alt=""><a href="#">Favourites</a></li>
+            <li><img src="podcast_images/local_icon.PNG" alt=""><a href="#">Local</a></li>
+        </ul>
+        <br>
+        <ul>
+            <legend>Customize</legend>
+            <li><img src="podcast_images/new_playlist_icon.PNG" alt=""><a href="#">New Playlist</a></li>
+            <li><img src="podcast_images/import_playlist_icon.PNG" alt=""><a href="#">Import Playlist</a></li>
+            <li><img src="podcast_images/account_icon.PNG" alt=""><a href="#">Account</a></li>
+            <li><img src="podcast_images/setting_icon.PNG" alt=""><a href="#">Settings</a></li>
+        </ul>
+        <br>
+        <div id="theme">
+            <input type="checkbox" name="" id="">
+            <div id="theme_name">Dark</div>
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------Header------------------------------------------------------------------------>
+    <header>
+        <div><a href="#">NEW RELEASES</a></div>
+        <div><a href="#">SHUFFLE PLAY</a></div>
+        <div><a href="#">LIVE PODCASTS</a></div>
+        <div id="upgrade_plan"><a href="#">UPGRADE PLAN</a></div>
+        <div><a href="#">User</a></div>
+    </header>
+    <!---------------------------------------------------------------------------Right Side Bar------------------------------------------------------------------------>
+    <div id="right_sidebar">
+        <h2 id="quick_search">QUICK SEARCH</h2>
+        <input type="text" name="search_bar" placeholder="Type here to search" id="search_bar"><button id="search_button"><img src="podcast_images/search_icon.PNG" alt=""></button>
+        <h2 id="podcasters">TOP PODCASTERS</h2>
+        <ul>
+            <li><img src="podcast_images/podcaster1.PNG" alt=""><p class="songs_and_singers">Joe Rogan<br>456,859 followers</p><button>Follow</button></li>
+            <li><img src="podcast_images/podcaster2.PNG" alt=""><p class="songs_and_singers">Andrew klavan<br>456,859 followers</p><button>Follow</button></li>
+            <li><img src="podcast_images/podcaster3.PNG" alt=""><p class="songs_and_singers">Joyce Meyer<br>456,859 followers</p><button>Follow</button></li>
+        </ul>
+        <div id="player">
+            <div id="player_details">
+                <span>player</span><img src="#" alt="">
+                <img src="#" alt="">
+                <div id="song_name">Employee Transfer</div>
+                <div id="song_details">Earwolf & Jenna Fischer</div>
+            </div>
+            <div id="player_controls"></div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------------------Main Content------------------------------------------------------------------------>
+    <div id="main_content">
+        <h1 id="trending_podcasts">Trending Podcasts</h1>
+        <div id="banner">
+            <div>On Purpose</div>
+            <div>with Jay Shetty</div>
+        </div>
+        <div id="recently_played">Recently played</div>
+        <div class="recents">
+            <div class="Played_podcasts podcast-1">
+                <div class="podcast_image">
+                    <img src="podcast_images/recent1.PNG" alt="">
+                </div>
+                <div class="podcast_details">
+                    <p class="songs_and_singers"> Elevation <br> Steven Furlick</p>
+                </div>
+            </div>
+            <div class="Played_podcasts podcast-1">
+                <div class="podcast_image">
+                    <img src="podcast_images/recent2.PNG" alt="">
+                </div>
+                <div class="podcast_details">
+                    <p class="songs_and_singers">The Gary Vee<br>Garry Vee</p>
+                </div>
+            </div>
+            <div class="Played_podcasts podcast-1">
+                <div class="podcast_image">
+                    <img src="podcast_images/recent3.PNG" alt="">
+                </div>
+                <div class="podcast_details">
+                    <p class="songs_and_singers">The Daily Show<br>Trevor Noah</p>
+                </div>
+            </div>
+            <div class="Played_podcasts podcast-1">
+                <div class="podcast_image">
+                    <img src="podcast_images/recent4.PNG" alt="">
+                </div>
+                <div class="podcast_details">
+                    <p class="songs_and_singers">Daily Podcast<br>Joel Osteen</p>
+                </div>
+            </div>
+            <div class="Played_podcasts podcast-1">
+                <div class="podcast_image">
+                    <img src="podcast_images/recent5.PNG" alt="">
+                </div>
+                <div class="podcast_details">
+                    <p class="songs_and_singers">The Mindset Mentor<br>Rob Dial</p>
+                </div>
+            </div>
+        </div>
+        <div class="most_popular">
+            <h1 id="most_popular">Most Popular</h1>
+            <div>
+                <div><img src="podcast_images/most_popular1.PNG" alt=""></div>
+                <div><img src="podcast_images/most_popular2.PNG" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
